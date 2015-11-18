@@ -108,6 +108,14 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             paso7.setText(Html.fromHtml(guia.get(6)));
             TextView paso8 = (TextView) findViewById(R.id.paso8);
             paso8.setText(Html.fromHtml(guia.get(7)));
+            TextView paso9 = (TextView) findViewById(R.id.paso9);
+            paso9.setText(Html.fromHtml(guia.get(8)));
+            TextView paso10 = (TextView) findViewById(R.id.paso10);
+            paso10.setText(Html.fromHtml(guia.get(9)));
+            TextView paso11 = (TextView) findViewById(R.id.paso11);
+            paso11.setText(Html.fromHtml(guia.get(10)));
+            TextView paso12 = (TextView) findViewById(R.id.paso12);
+            paso12.setText(Html.fromHtml(guia.get(11)));
         }
 
 
